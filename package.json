@@ -1,0 +1,32 @@
+{
+  "name": "@local/dsh-plugin-humanizer",
+  "version": "1.0.0",
+  "description": "Production-ready humanizer plugin for DeepSeek Harness (DSH) to rewrite AI-generated text into natural, human-like voice.",
+  "private": true,
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "humanizer",
+    "ai-text-humanizer"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

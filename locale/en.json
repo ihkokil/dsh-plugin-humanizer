@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Text Humanizer",
+    "description": "Rewrites AI-generated text to sound natural, conversational, and human-like using a multi-pass engine (Anti-AI vocabulary audit, wave rewrites, burstiness, and contraction polish)."
+  }
+}
