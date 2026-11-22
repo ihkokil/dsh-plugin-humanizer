@@ -1,14 +1,14 @@
 {
-  "name": "@local/dsh-plugin-humanizer",
+  "name": "dsh-plugin-humanizer",
   "version": "1.0.0",
   "description": "Production-ready humanizer plugin for DeepSeek Harness (DSH) to rewrite AI-generated text into natural, human-like voice.",
-  "private": true,
   "type": "module",
   "main": "./index.js",
   "exports": {
     ".": "./index.js",
     "./locale/*.json": "./locale/*.json",
-    "./icon": "./icon.svg"
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
   },
   "files": [
     "index.js",
@@ -24,6 +24,16 @@
     "humanizer",
     "ai-text-humanizer"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihkokil/dsh-plugin-humanizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ihkokil/dsh-plugin-humanizer/issues"
+  },
+  "homepage": "https://github.com/ihkokil/dsh-plugin-humanizer#readme",
+  "author": "Md. Iqbal Haider Khan <ihkokil@gmail.com>",
+  "license": "MIT",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
